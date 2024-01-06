@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ashraf Abdul-Muumin</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Borel&family=Raleway&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <style>
+            hr {
+                display: block;
+                background-color: #66347F;
+                height: 3px;
+                width: 100px;
+                border: none;
+                outline: none;
+                margin: 80px auto; 
+            }
+
+            .hero-text p {
+                font-size: 25px;
+                color: white;
+            }
+
+            p {
+                font-size: 20px;
+                color: rgb(124, 117, 117);
+            }
+
+            .body-container {
+                width: 80%;
+                margin: 50px auto;
+            }
+
+            .body-container h3 {
+                color: #66347F;
+                font-family: 'Borel', cursive;
+                font-weight: bold;
+            }
+
+            .section {
+                margin: 30px 0;
+            }
+
+            .text-center {
+                text-align: center;
+            }
+
+            .profile-pic {
+                margin: 10px auto;
+                padding: 10px;
+            }
+
+            .profile-pic img {
+                border-radius: 50%;
+            }
+
+            .skills-container {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+            }
+
+            .skills-container div {
+                flex: 0 0 30%;
+            }
+        
+
+            .skills-container h4 {
+                color: #66347F;
+            }
+
+            .lead {
+                font-size: 20px;
+                font-weight: bold;
+                color: #D27685;
+                margin: 30px 0; 
+            }
+
+            a.contact {
+                display: block;
+                width: fit-content;
+                text-decoration: none;
+                padding: 12px 18px;
+                background-color: #66347F;
+                color: white;
+                border-radius: 10px;
+                margin: 40px auto; 
+                font-size: 25px;
+                
+            }
+            
+            .contact-text {
+                width: 500px; 
+                margin: auto;
+            }
+
+            .footer {
+                margin-top: 100px;
+                background-color: #9E4784;
+                color: white;
+                height: 300px;
+                width: 100%;
+            }
+
+            .footer p {
+                color: white;
+                font-size: 14px;
+                margin-top: 50px;
+            }
+
+
+            .footer .links {
+                width: 500px;
+                height: 200px;
+                margin: auto;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .links a {
+                text-decoration: none;
+                color: white;
+                padding-bottom: 1px;
+            }
+
+            .links a:hover {
+                border-bottom: 1px solid white;
+            }
+
+
+            @media (max-width: 760px) {
+                .skills-container {
+                    flex-direction: column;
+                }
+
+                .contact-text {
+                    width: auto;
+                }
+
+                .footer .links {
+                    width: 100%;
+                }
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1 class="hero-title">Ashraf Abdul-Muumin</h1>
+                <p>Web & App Developer</p>
+            </div>
+        </div>
+        <div class="body-container">
+            <!-- The introduction section, pic, and a little text -->
+            <div class="section text-center">
+                <div class="profile-pic">
+                    <img src="assets/profile pic 2.jpg" alt="My Profile Pic" height="100" width="100">
+                </div>
+                <h3>About Me</h3>
+                <p>
+                    I am an App and Web Developer. I ❤️ anime & food!  
+                </p>
+            </div>
+
+            <hr />
+
+            <!-- Skills section -->
+            <div class="section">
+                <h3 class="text-center">Skills</h3>
+                <div class="skills-container">
+                    <div>
+                        <h4>Design & Development</h4>
+                        <p>
+                            I love coding and making attractive and interactive interactive platforms for users.
+                            Been coding for 4 years.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4>Sales copy writing</h4>
+                        <p>
+                            I am also sales copy writer for businesses. I come up with the best selling sales texts for your products! 
+                            Do not worry about getting sales when it comes to me.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4>Penetration Testing</h4>
+                        <p>
+                            Testing out systems' security is more of a hobby to me. I did have a professional stand in this some years ago.
+                            Keeping the security & privacy of customers is an innate nature for me (it should be yours too) 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+            <!-- Contact Me Section I would place a button to use -->
+            <div class="section text-center">
+                <h3>Get in touch with me</h3>
+                <p class="lead">If you love anime as much as I do.</p>
+                <p class="contact-text">
+                    Love anime as much as I do? Let's talk about how awesome they are! 
+                    We can code while we eat hot wings!
+                </p>
+                <a class="contact" href="mailto:chiriashraf@gmail.com">Hit me up</a>
+            </div>
+
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer text-center">
+            <div class="links">
+                <a href="https://linkedin.com">LinkedIN</a>
+                <a href="https://twitter.com">Twitter</a>
+                <a href="#">Website</a>
+            </div>
+            <p>&copy; Ashraf Abdul-Muumin</p>
+        </div>
+    </body>
+</html>
